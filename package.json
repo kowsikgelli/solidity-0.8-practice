@@ -1,0 +1,31 @@
+{
+  "name": "solidity-0.8-practice",
+  "version": "1.0.0",
+  "description": "",
+  "main": "truffle-config.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "eslint --ext .js migrations test --fix"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kowsikgelli/solidity-0.8-practice.git"
+  },
+  "keywords": [
+    "solidity",
+    "ethereum"
+  ],
+  "author": "Kowsik Gelli",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kowsikgelli/solidity-0.8-practice/issues"
+  },
+  "homepage": "https://github.com/kowsikgelli/solidity-0.8-practice#readme",
+  "devDependencies": {
+    "eslint": "^8.12.0",
+    "eslint-config-google": "^0.14.0"
+  }
+}
