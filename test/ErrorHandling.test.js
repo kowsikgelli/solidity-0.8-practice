@@ -57,5 +57,14 @@ contract('ErrorHandling',()=>{
                 assert.ok(true);
             }
         })
+
+        it('custom error handler works',async()=>{
+            try{
+                await instance.bar(15);
+                assert.ok(false);
+            }catch(err){
+                assert.ok(true);
+            }
+        })
     })
 }) 
