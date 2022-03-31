@@ -20,4 +20,7 @@ contract Func{
         return (sender,timestamp,blockNumber);
     }
 
+    function setNum(uint _num) external{
+        num = _num;
+    }
 }
