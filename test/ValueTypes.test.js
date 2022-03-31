@@ -48,7 +48,6 @@ contract('ValueTypes', async () => {
 
     it('check variable b', async () => {
       const b = await instance.b();
-      console.log(b.toString());
       assert.equal('-4', b.toString());
     });
   });
